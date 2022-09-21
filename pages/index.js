@@ -14,7 +14,10 @@ export default function Home() {
          id:'0-0',
     label:'Laptops',
     child:[
-      
+      {
+        id:'0-0-0',
+        label:'core-i7',
+      }
     ]
       },
       {

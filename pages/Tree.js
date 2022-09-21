@@ -1,8 +1,12 @@
 import React from 'react'
-
+import TreeNode from './TreeNode'
 const Tree = ({treeData}) => {
   return (
-    <div>Tree</div>
+    <ul>
+        {treeData&&treeData.map((node) => (
+          <TreeNode node={node} key={node.id} />
+        ))}
+      </ul>
   )
 }
 
